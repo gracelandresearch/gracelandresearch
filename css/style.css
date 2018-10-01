@@ -3319,7 +3319,7 @@ select.input-border {
 .affix.header-1 #main-menu .navbar .nav > li.current > a{
   margin-bottom: 13px;
 	padding: 20px 3px 5px 3px;
-	border-color:rgba(75,78,83,.5); 
+	border-color:rgba(186,2,24,1); 
 }
 .affix.header-1.black-header #main-menu .navbar .nav > li.current > a{
 	border-color:rgba(75,78,83,0); 
