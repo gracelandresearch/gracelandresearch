@@ -165,7 +165,7 @@ Site: https://themeforest.net/user/abcgomel/portfolio
 .alert-info {
   color: rgba(0, 0, 0, 0.7);
   background-color: rgba(255, 255, 255, 1);
-  border-color: rgba(182, 2, 24, 1);
+  border-color: rgba(186, 2, 24, 1);
 }
 
 /* #PRELOADER  ============================================== */
@@ -3309,7 +3309,7 @@ select.input-border {
 .header-1 #main-menu .navbar .nav > li.current > a {
 	padding:38px 3px 5px 3px;
 	margin: 0 12px 17px 12px;
-	border-bottom: 2px solid rgba(182,2,24,1);
+	border-bottom: 2px solid rgba(186,2,24,1);
 	color: #4b4e53; 
 }
 .black-header #main-menu .navbar .nav > li.current > a {
