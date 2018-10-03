@@ -1,0 +1,59 @@
+.bg-ocean {
+  background: url(../../images/stockgrc/ocean.jpg) 50% 50% no-repeat;
+  
+  width: 100%;
+  display: block;	
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sm-img-bg-quarter {
+  background-position: 50% 300px;
+  background-size:cover;
+  height: 300px;
+  
+  width: 100%;
+  display: block;	
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.sm-img-bg-about {
+  background-position: 50% 50%;
+  background-size:cover;
+  height: 500px;
+  
+  width: 100%;
+  display: block;	
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
