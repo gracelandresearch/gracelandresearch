@@ -3080,7 +3080,7 @@ input, textarea, select, .login-select, .controled{
 	border-bottom: 1px solid #a6a7a9; 
 	border-radius: 0px;
   background:transparent;
-	color: rgba(255, 255, 255, 0.8); /*#4b4e53;*/
+	color: rgba(0, 0, 0, 0.8); /*#4b4e53;*/
 	font-size: 14px;
 	margin: 0;
 	outline: medium none;
