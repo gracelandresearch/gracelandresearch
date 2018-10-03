@@ -257,6 +257,7 @@ html,body{
 	padding:0;
   width: 100%;
   max-width: 100%;
+  overflow: 'hidden';
 }
 table {
 	border-collapse:collapse;
@@ -3832,7 +3833,7 @@ background:none;
 	transition: all .3s ease 0s;
 }
  .logo-container-2 {
-  width: 400px;
+  max-width: 400px;
 	transition: all .3s ease 0s;
 } 
 
