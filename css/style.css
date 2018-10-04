@@ -2924,7 +2924,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   overflow: hidden;
   background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center bottom;
 }
 .page-title-small {
   padding-top:118px;
@@ -6192,7 +6192,7 @@ a:hover, a:focus {
     padding-bottom:40px;
   }
   .page-title-cont.page-title-large {
-    padding-top:30px;
+    padding-top:170px;
   }
   .page-title-cont.page-title-large.blog-single-fullwidth-img {
     padding-top:480px;

@@ -92,8 +92,8 @@
 
         <!-- CONTENT HERE -->
 
-        <div class="page-title-cont page-title-large grey-dark-bg page-title-img  pt-250" style="background-image: url(images/stockgrc/mtnbikes.jpg); background-position: 50% -240px; ">
-          <div class="relative container align-left">
+        <div id="zoomingbottombg"  class="page-title-cont page-title-large grey-dark-bg page-title-img pt-250" style="background-image: url(images/stockgrc/mtnbikes.jpg); background-position: 50% 0px; min-height: 300px">
+          <div class="relative container align-left ">
             <div class="row">
                
               <div class="col-md-8">
@@ -485,6 +485,22 @@
 
   <!-- MAIN SCRIPT -->
   <script src="js/main.js"></script>
+
+  <!-- Green Sock -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <script type="text/javascript">
+    var $zoomingbottombg = $('#zoomingbottombg');
+
+    // TweenLite.fromTo($zoomingbg, 5, 
+    //   { backgroundPosition: "50% 0px" }, 
+    //   { backgroundPosition: "50% -30px",  ease:Power4.easeOutIn}
+    // );
+    TweenLite.fromTo($zoomingbottombg, 20, 
+      { backgroundSize: "120%", }, 
+      { backgroundSize: "100%",  ease:Power4.easeOutIn}
+    );
+
+  </script>
 
   <!-- JS end -->	
 

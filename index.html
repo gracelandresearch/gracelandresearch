@@ -93,7 +93,7 @@
         </div>
 
         <!-- STATIC MEDIA IMAGE -->
-        <div class="sm-img-bg-fullscr parallax-section" style="background-image: url(images/stockgrc/bridgewhite.jpg)"  data-stellar-background-ratio="0.5">
+        <div id="zoomingbg" class="parallax-section" style="background-image: url(images/stockgrc/bridgewhite.jpg)"  data-stellar-background-ratio="0.5">
           <div class="container sm-content-cont js-height-fullscr">
             <div class="sm-cont-middle">
 
@@ -272,6 +272,30 @@
 
   <!-- MAIN SCRIPT -->
   <script src="js/main.js"></script>
+
+
+  <!-- Green Sock -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <script type="text/javascript">
+    var $zoomingbg = $('#zoomingbg');
+
+    TweenLite.fromTo($zoomingbg, 30, 
+      { backgroundSize: "118%" }, 
+      { backgroundSize: "100%",  ease:Power4.easeOutIn}
+    );
+
+    // TweenLite.fromTo($zoomingbg, 10, 
+    //   { backgroundPosition: "50% -100px" }, 
+    //   { backgroundPosition: "50% -200px",  ease:Power4.easeOutIn}
+    // );
+
+
+  </script>
+
+<!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/easing/EasePack.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script> -->
+
 
   <!-- JS end -->	
 

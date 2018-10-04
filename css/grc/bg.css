@@ -57,3 +57,50 @@
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
+#zoomingbg {
+  background-color: #88ce02;
+  position: absolute;
+  z-index: 1;
+  background-position: 50% 50%;
+  background-size:cover;
+
+  display: block; 
+  position: relative;
+ 
+     
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#zoomingbottombg {
+  background-color: #88ce02;
+  position: absolute;
+  z-index: 1;
+  background-position: center bottom;
+  background-size:cover;
+
+  background-image: url(https://www.nps.gov/common/uploads/grid_builder/pwr/crop16_9/2A84C724-1DD8-B71B-0B0F4361A736E640.jpg?width=950&quality=90&mode=crop);
+  display: block; 
+  position: relative;
+  
+  display: flex;
+  justify-content: bottom;
+     
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.flexbottom {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-top: 250px;
+}

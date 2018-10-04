@@ -37,8 +37,8 @@ const header_html = `<header id="nav" class="header header-1">
 `
 
 const menu_1 = [
-  `<li class="parent">`, 
-  `<li class="parent current">`
+  `<li class="">`, 
+  `<li class=" current">`
 ];
 
 const menu_2 = `<a href="index.html"><div class="main-menu-title">HOME</div></a>
@@ -71,11 +71,11 @@ const menu_6 = `<a href="contact.html"><div class="main-menu-title">CONTACT</div
                   <li class="clearfix" >
                     <div class="menu-sub-container">
 
-                      <div class="box col-md-3 menu-demo-info closed">
-                        <h5 class="title">CONTACT</h5>
+                      <div class="box col-md-3 ">
+                        
                         <ul>
                         
-                        <li><a href="contact.html">New Clients</a></li>
+                        <li><a href="contact.html">Contact</a></li>
 
                         <li><a href="contact.html">Careers</a></li>
 
